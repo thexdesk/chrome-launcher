@@ -136,9 +136,10 @@ debug@3.2.6:
   dependencies:
     ms "^2.1.1"
 
-debug@^2.6.8:
+debug@^2.6.9:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
+  integrity sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==
   dependencies:
     ms "2.0.0"
 
@@ -347,11 +348,13 @@ js-yaml@3.13.1:
     argparse "^1.0.7"
     esprima "^4.0.0"
 
-lighthouse-logger@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/lighthouse-logger/-/lighthouse-logger-1.0.1.tgz#f073d83f7acbc96729bf100a121c8f006991ae61"
+lighthouse-logger@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/lighthouse-logger/-/lighthouse-logger-1.3.0.tgz#ba6303e739307c4eee18f08249524e7dafd510db"
+  integrity sha512-BbqAKApLb9ywUli+0a+PcV04SyJ/N1q/8qgCNe6U97KbPCS1BTksEuHFLYdvc8DltuhfxIUBqDZsC0bBGtl3lA==
   dependencies:
-    debug "^2.6.8"
+    debug "^2.6.9"
+    marky "^1.2.2"
 
 locate-path@^3.0.0:
   version "3.0.0"
@@ -380,6 +383,11 @@ lolex@^1.6.0:
 make-error@^1.1.1:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/make-error/-/make-error-1.3.2.tgz#8762ffad2444dd8ff1f7c819629fa28e24fea1c4"
+
+marky@^1.2.2:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/marky/-/marky-1.2.4.tgz#d02bb4c08be2366687c778ecd2a328971ce23d7f"
+  integrity sha512-zd2/GiSn6U3/jeFVZ0J9CA1LzQ8RfIVvXkb/U0swFHF/zT+dVohTAWjmo2DcIuofmIIIROlwTbd+shSeXmxr0w==
 
 minimatch@3.0.4, minimatch@^3.0.4:
   version "3.0.4"
