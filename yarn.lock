@@ -391,11 +391,23 @@ minimist@0.0.8:
   version "0.0.8"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-0.0.8.tgz#857fcabfc3397d2625b8228262e86aa7a011b05d"
 
+minimist@^1.2.5:
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
+  integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
+
 mkdirp@0.5.1:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   dependencies:
     minimist "0.0.8"
+
+mkdirp@0.5.2:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.2.tgz#2e7138d794dfbd097d74c84c410c3edd9eec479f"
+  integrity sha512-jczt4BrifxW743wRHJ05AnqIF52sDrHCAjTO66cFQStG1/jHMLFSGdAa3Rec21jdEObaPugcXfbh6Ammt2VQsw==
+  dependencies:
+    minimist "^1.2.5"
 
 mocha@^6.1.4:
   version "6.2.1"
